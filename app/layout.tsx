@@ -24,7 +24,14 @@ export const metadata: Metadata = {
       'Partner guesthouse stays, surf packages, island activities and the Sea Shine restaurant on Huraa, Maldives.',
     images: ['/images/hero-huraa.png'],
   },
-  icons: { icon: '/images/seashine-logo.png' },
+  icons: {
+    icon: [
+      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-512x512.png', type: 'image/png', sizes: '512x512' },
+    ],
+    shortcut: '/favicon-32x32.png',
+    apple: [{ url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' }],
+  },
 }
 
 export const viewport: Viewport = {

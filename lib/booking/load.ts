@@ -36,7 +36,7 @@ export async function loadAvailability(room: RoomType, stay: StayInput): Promise
     const relevant = bookings.filter((b) => b.status === 'confirmed' || b.status === 'pending')
     return availability(room, relevant, blocks, stay.checkIn, stay.checkOut, stay.units)
   } catch (error) {
-    console.error('[v0] Availability lookup failed:', (error as Error).message)
+    console.error('[Sea Shine] Availability lookup failed:', (error as Error).message)
     return null
   }
 }

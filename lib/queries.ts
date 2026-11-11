@@ -26,7 +26,7 @@ async function safe<T>(fn: () => Promise<T>, fallback: T): Promise<T> {
   try {
     return await fn()
   } catch (error) {
-    console.error('[v0] Data load failed:', (error as Error).message)
+    console.error('[Sea Shine] Data load failed:', (error as Error).message)
     return fallback
   }
 }

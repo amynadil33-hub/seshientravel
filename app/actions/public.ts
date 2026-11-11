@@ -111,7 +111,7 @@ export async function submitBookingRequest(_prev: FormState, formData: FormData)
       decided_at: null,
     })
   } catch (error) {
-    console.error('[v0] Booking insert failed:', (error as Error).message)
+    console.error('[Sea Shine] Booking insert failed:', (error as Error).message)
     return { ok: false, message: 'We could not save your request. Please try again or contact us directly.' }
   }
   redirect(`/book/confirmation/${reference}`)
@@ -164,7 +164,7 @@ export async function submitEnquiry(_prev: FormState, formData: FormData): Promi
       status: 'new',
     })
   } catch (error) {
-    console.error('[v0] Enquiry insert failed:', (error as Error).message)
+    console.error('[Sea Shine] Enquiry insert failed:', (error as Error).message)
     return { ok: false, message: 'We could not send your enquiry. Please try again or contact us directly.' }
   }
   return { ok: true, message: 'Thanks — your enquiry has been sent. Our team on Huraa will reply by email, usually within 24 hours.' }
