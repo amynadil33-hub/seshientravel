@@ -39,10 +39,10 @@ export const PAGE_DEFS: PageDef[] = [
     fields: [
       t('hero_title', 'Hero title', 'Your Huraa adventure starts here'),
       ta('hero_subtitle', 'Hero subtitle', 'Partner guesthouse stays, surf trips to North Malé’s reef breaks, island excursions and a table at our restaurant — arranged by a local team on Huraa.'),
-      im('hero_image', 'Hero image', MEDIA.hero),
+      im('hero_image', 'Hero image', MEDIA.beachSunset),
       t('intro_title', 'Island intro title', 'A real island, a short boat ride from Malé'),
       ta('intro_body', 'Island intro text', 'Huraa is a local inhabited island in North Malé Atoll. Sandy lanes, fishing boats in the harbour, a quiet mangrove lagoon and a bikini beach for swimming — with world-famous surf breaks on the horizon. We live here, and we help you experience it properly.'),
-      im('intro_image', 'Island intro image', MEDIA.village),
+      im('intro_image', 'Island intro image', MEDIA.islandLane),
       t('restaurant_title', 'Restaurant feature title', 'Eat with us on Huraa'),
       ta('restaurant_body', 'Restaurant feature text', 'Our restaurant is open to everyone on the island — guests of every partner guesthouse, surfers back from the boat, and visitors passing through. Menu and opening hours are kept up to date on the restaurant page.'),
       im('restaurant_image', 'Restaurant feature image', MEDIA.restaurant),
@@ -55,16 +55,16 @@ export const PAGE_DEFS: PageDef[] = [
     fields: [
       t('hero_title', 'Hero title', 'Discover Huraa'),
       ta('hero_subtitle', 'Hero subtitle', 'Local island life in North Malé Atoll — beaches, boats, mangroves and the people who call it home.'),
-      im('hero_image', 'Hero image', MEDIA.village),
+      im('hero_image', 'Hero image', MEDIA.palmBeach),
       t('life_title', 'Island life title', 'Island life'),
       ta('life_body', 'Island life text', 'Huraa is a living community, not a resort. Mornings start with the call to prayer and fishing boats heading out; afternoons slow down under the breadfruit trees; evenings bring families to the waterfront. Walking the sandy streets is the best way to get to know it.'),
-      im('life_image', 'Island life image', MEDIA.harbour),
+      im('life_image', 'Island life image', MEDIA.huraaHarbour),
       t('beaches_title', 'Beaches title', 'Beaches & lagoon'),
       ta('beaches_body', 'Beaches text', 'A designated tourist beach lets you swim and sunbathe in swimwear, with clear shallow water and soft white sand. Beyond the reef, sandbanks and snorkel spots are a short boat trip away.'),
-      im('beaches_image', 'Beaches image', MEDIA.beach),
+      im('beaches_image', 'Beaches image', MEDIA.lagoonBeach),
       t('culture_title', 'Culture title', 'Culture & etiquette'),
       ta('culture_body', 'Culture text', 'Huraa is a Muslim community. In the village, please cover shoulders and knees; swimwear is for the tourist beach. Alcohol is not available on local islands. Fridays are quieter, with shops closing around midday prayers.'),
-      im('culture_image', 'Culture image', MEDIA.mangrove),
+      im('culture_image', 'Culture image', MEDIA.souvenirShop),
       ta('travel_info', 'Travel information (one item per line, “Label: details”)', 'Location: North Malé Atoll, Maldives\nGetting here: Speedboat or public ferry from Malé / Velana International Airport — transfer details are confirmed with your booking\nCurrency: Maldivian Rufiyaa (MVR); US dollars widely accepted\nDress code: Modest dress in the village; swimwear on the tourist beach\nBest surf season: Ask our team — depends on swell and wind', 'Transfer schedules and prices should only be added once verified.'),
     ],
   },
@@ -75,7 +75,7 @@ export const PAGE_DEFS: PageDef[] = [
     fields: [
       t('hero_title', 'Hero title', 'Partner guesthouses on Huraa'),
       ta('hero_subtitle', 'Hero subtitle', 'We work with local guesthouses across the island. Send a booking request and we confirm availability for you.'),
-      im('hero_image', 'Hero image', MEDIA.beach),
+      im('hero_image', 'Hero image', MEDIA.palmBeach),
     ],
   },
   {
@@ -85,7 +85,7 @@ export const PAGE_DEFS: PageDef[] = [
     fields: [
       t('hero_title', 'Hero title', 'Surf North Malé Atoll'),
       ta('hero_subtitle', 'Hero subtitle', 'Stay on Huraa and take the boat to the reef breaks. We match the trip to the swell, the wind and your level.'),
-      im('hero_image', 'Hero image', MEDIA.surfReef),
+      im('hero_image', 'Hero image', MEDIA.speedboatFleet),
       t('breaks_title', 'Breaks section title', 'The breaks'),
       ta('breaks_intro', 'Breaks intro', 'Conditions change daily. Our crew chooses the break that is working best and suits your experience.'),
     ],
@@ -97,7 +97,7 @@ export const PAGE_DEFS: PageDef[] = [
     fields: [
       t('hero_title', 'Hero title', 'Island & ocean activities'),
       ta('hero_subtitle', 'Hero subtitle', 'Snorkelling, sandbanks, fishing and diving — arranged with local crews.'),
-      im('hero_image', 'Hero image', MEDIA.snorkel),
+      im('hero_image', 'Hero image', MEDIA.snorkellingLagoon),
     ],
   },
   {
@@ -121,10 +121,10 @@ export const PAGE_DEFS: PageDef[] = [
     path: '/about',
     fields: [
       t('hero_title', 'Hero title', 'A local team on Huraa'),
-      im('hero_image', 'Hero image', MEDIA.harbour),
+      im('hero_image', 'Hero image', MEDIA.traditionalDhoni),
       ta('body', 'About text', 'Sea Shine Travel & Tours is based on Huraa in North Malé Atoll. We no longer operate our own guesthouse. Instead, we promote the island, arrange stays at trusted partner guesthouses, organise surf trips and excursions, and run our restaurant.\n\nBecause we live here, we can match you with the right place to stay, the right boat on the right day, and the island experiences that make a trip memorable.'),
       ta('values', 'What we do (one per line)', 'Partner guesthouse bookings, confirmed personally\nSurf trips with local boat crews\nSnorkelling, sandbank and fishing excursions\nOur restaurant, open to everyone on the island'),
-      im('side_image', 'Secondary image', MEDIA.village),
+      im('side_image', 'Secondary image', MEDIA.islandLane),
     ],
   },
   {

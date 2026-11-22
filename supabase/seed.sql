@@ -29,7 +29,37 @@ insert into public.media (id, url, storage_path, alt, caption, width, height, is
   ('00000000-0000-4000-8000-000000000016', '/images/stay-exterior.png', null, 'Small white two-storey guesthouse with a wooden balcony and palms', 'Demo partner guesthouse', null, null, true, '2026-01-01T00:00:00.000Z'),
   ('00000000-0000-4000-8000-000000000017', '/images/stay-room.png', null, 'Bright double bedroom with white linen and a palm-view window', 'Demo partner room', null, null, true, '2026-01-01T00:00:00.000Z'),
   ('00000000-0000-4000-8000-000000000018', '/images/stay-terrace.png', null, 'Rooftop terrace with bean bags overlooking palms and the lagoon at sunset', 'Demo rooftop terrace', null, null, true, '2026-01-01T00:00:00.000Z'),
-  ('00000000-0000-4000-8000-000000000019', '/images/huraa-mangrove.png', null, 'Calm mangrove lagoon with trees reflected in still water', 'Huraa mangroves', null, null, true, '2026-01-01T00:00:00.000Z')
+  ('00000000-0000-4000-8000-000000000019', '/images/huraa-mangrove.png', null, 'Calm mangrove lagoon with trees reflected in still water', 'Huraa mangroves', null, null, true, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000020', '/images/huraa/island-palms.jpeg', null, 'Coconut palms and tropical trees framing an open island clearing', 'Green island interiors', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000021', '/images/huraa/snorkelling-lagoon.jpeg', null, 'Snorkellers crossing the blue lagoon beside a palm-lined island', 'Snorkelling from Huraa', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000022', '/images/huraa/guided-snorkelling.jpeg', null, 'A small group snorkelling together in calm open water', 'A guided snorkelling trip', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000023', '/images/huraa/beach-sunset.jpeg', null, 'Sun setting over a quiet white-sand beach framed by palm leaves', 'Sunset on the beach', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000024', '/images/huraa/palm-beach.jpeg', null, 'A broad white-sand beach beneath coconut palms and a deep blue sky', 'A quiet island beach', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000025', '/images/huraa/lagoon-beach.jpeg', null, 'White sand, palms and a calm pale-blue lagoon under scattered clouds', 'Lagoon-side calm', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000026', '/images/huraa/island-lane.jpeg', null, 'A sandy island lane winding beneath dense coconut palms', 'Walking through Huraa', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000027', '/images/huraa/towable-water-ride.jpeg', null, 'Two travellers smiling on a towable water ride in the turquoise lagoon', 'Fun on the lagoon', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000028', '/images/huraa/jet-ski-tow.jpeg', null, 'A jet ski towing a water ride across the lagoon', 'Water adventure', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000029', '/images/huraa/jet-ski-lagoon.jpeg', null, 'A local guide riding a jet ski across clear turquoise water', 'Jet ski on the lagoon', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000030', '/images/huraa/jet-ski-turn.jpeg', null, 'A jet ski carving a fast turn through bright blue water', 'A fast turn on the lagoon', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000031', '/images/huraa/jet-ski-spray.jpeg', null, 'A jet ski sweeping past in a fan of white spray', 'Lagoon adventure', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000032', '/images/huraa/towable-lagoon.jpeg', null, 'Two travellers riding a towable across shallow turquoise water', 'A day out on the water', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000033', '/images/huraa/mangrove-lagoon.jpeg', null, 'Mangrove trees reflected in a still island lagoon', 'Huraa mangrove lagoon', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000034', '/images/huraa/island-playground.jpeg', null, 'A colourful children’s playground shaded by tropical trees', 'Family life on the island', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000035', '/images/huraa/huraa-harbour.jpeg', null, 'Traditional boats and speedboats moored in Huraa harbour', 'Huraa harbour', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000036', '/images/huraa/historic-cemetery.jpeg', null, 'A small historic cemetery and coral-stone building beneath coconut palms', 'Island history', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000037', '/images/huraa/water-villas-sunset.jpeg', null, 'Water villas silhouetted against a soft orange lagoon sunset', 'Evening across the atoll', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000038', '/images/huraa/local-workshop.jpeg', null, 'Island residents working together in a traditional local workshop', 'Everyday work on Huraa', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000039', '/images/huraa/huraa-health-centre.jpeg', null, 'The white Huraa health centre beneath a dramatic tropical sky', 'Huraa health centre', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000040', '/images/huraa/island-school.jpeg', null, 'A bright island school building surrounded by coconut palms', 'The island school', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000041', '/images/huraa/island-cemetery.jpeg', null, 'A quiet island cemetery surrounded by palms and tropical greenery', 'A peaceful corner of Huraa', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000042', '/images/huraa/souvenir-shop.jpeg', null, 'A shaded island souvenir shop displaying local art, shells and textiles', 'Local crafts and souvenirs', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000043', '/images/huraa/sunset-boat.jpeg', null, 'A small boat crossing a calm sea beneath a vivid orange sunset', 'Sunset on the water', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000044', '/images/huraa/working-harbour.jpeg', null, 'Local boats and a passenger vessel at the working island harbour', 'The working harbour', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000045', '/images/huraa/island-mosque.jpeg', null, 'A white island mosque with arched windows and a turquoise roof', 'Huraa mosque', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000046', '/images/huraa/speedboat-aerial.jpeg', null, 'A passenger speedboat leaving a long white wake across deep blue water', 'Speedboat transfer', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000047', '/images/huraa/speedboat-cruise.jpeg', null, 'A passenger speedboat cruising across the atoll', 'Travelling between the islands', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000048', '/images/huraa/speedboat-fleet.jpeg', null, 'Several speedboats crossing open water in formation', 'Boats across North Male Atoll', null, null, false, '2026-01-01T00:00:00.000Z'),
+  ('00000000-0000-4000-8000-000000000049', '/images/huraa/traditional-dhoni.jpeg', null, 'A traditional wooden dhoni moored at the harbour under a brilliant blue sky', 'Traditional Maldivian dhoni', null, null, false, '2026-01-01T00:00:00.000Z')
 on conflict (id) do nothing;
 
 -- guesthouses
@@ -65,8 +95,8 @@ on conflict (id) do nothing;
 insert into public.surf_packages (id, slug, title, summary, description, duration_label, duration_nights, inclusions, accommodation_options, price_from, price_note, cover_media_id, status, is_legacy, is_demo, sort) values
   ('00000000-0000-4000-8000-000000000501', 'north-male-surf-week', 'North Malé Surf Week', 'Seven nights on Huraa with daily boat trips to the North Malé Atoll reef breaks.', 'If you grew up looking at surf magazines with double-page spreads of perfect reef breaks peeling around empty tropical islands, start packing. Surfers from around the world make the pilgrimage to the Maldives every year — and Huraa puts you a short boat ride from some of the best-known breaks in North Malé Atoll.
 
-We arrange your stay at a partner guesthouse, daily surf trips with a local boat crew and help choosing the right break for the swell and wind.', '7 nights (demo — confirm)', 7, array['Partner guesthouse accommodation', 'Daily boat surf trips', 'Local crew who know the breaks', 'Meal plan options on request']::text[], array['Double room', 'Triple room (shared)']::text[], null, 'Rates confirmed on enquiry', '00000000-0000-4000-8000-000000000005', 'published', false, true, 1),
-  ('00000000-0000-4000-8000-000000000502', 'flexible-surf-stay', 'Flexible Surf Stay', 'Choose your dates and nights — we build a surf trip around the swell.', 'Not sure how many nights you need? Tell us your dates and level, and we will put together accommodation and boat trips that suit you. Ideal for surfers combining Huraa with time elsewhere in the Maldives.', 'Flexible (demo — confirm)', null, array['Partner guesthouse accommodation', 'Boat surf trips (per session or daily)', 'Board storage']::text[], array['Double room', 'Triple room (shared)', 'Family room']::text[], null, 'Rates confirmed on enquiry', '00000000-0000-4000-8000-000000000006', 'published', false, true, 2),
+We arrange your stay at a partner guesthouse, daily surf trips with a local boat crew and help choosing the right break for the swell and wind.', '7 nights (demo — confirm)', 7, array['Partner guesthouse accommodation', 'Daily boat surf trips', 'Local crew who know the breaks', 'Meal plan options on request']::text[], array['Double room', 'Triple room (shared)']::text[], null, 'Rates confirmed on enquiry', '00000000-0000-4000-8000-000000000046', 'published', false, true, 1),
+  ('00000000-0000-4000-8000-000000000502', 'flexible-surf-stay', 'Flexible Surf Stay', 'Choose your dates and nights — we build a surf trip around the swell.', 'Not sure how many nights you need? Tell us your dates and level, and we will put together accommodation and boat trips that suit you. Ideal for surfers combining Huraa with time elsewhere in the Maldives.', 'Flexible (demo — confirm)', null, array['Partner guesthouse accommodation', 'Boat surf trips (per session or daily)', 'Board storage']::text[], array['Double room', 'Triple room (shared)', 'Family room']::text[], null, 'Rates confirmed on enquiry', '00000000-0000-4000-8000-000000000047', 'published', false, true, 2),
   ('00000000-0000-4000-8000-000000000503', 'legacy-double-room-surf-package', 'LEGACY — Double Room Surf Package', 'Imported from the previous website for review. Not published.', 'Previous website listing: "Surf Package includes: Room, Full Board and Daily Surf Trips — $100 per person, per night." This referred to the former Sea Shine guesthouse and must be reviewed before any use.', 'Per night', null, array['Room', 'Full board', 'Daily surf trips']::text[], array['Double room']::text[], 100, 'Legacy price per person, per night — pending review', '00000000-0000-4000-8000-000000000007', 'draft', true, false, 10),
   ('00000000-0000-4000-8000-000000000504', 'legacy-triple-room-surf-package', 'LEGACY — Triple Room Surf Package', 'Imported from the previous website for review. Not published.', 'Previous website listing: "Surf Package includes: Room, Full Board and Daily Surf Trips — $85 per person, per night." Previous free-night specials: 7+ nights 1 night free, 14+ nights 2 nights free. Pending review.', 'Per night', null, array['Room', 'Full board', 'Daily surf trips']::text[], array['Triple room']::text[], 85, 'Legacy price per person, per night — pending review', '00000000-0000-4000-8000-000000000007', 'draft', true, false, 11)
 on conflict (id) do nothing;
@@ -85,11 +115,11 @@ on conflict (id) do nothing;
 
 -- activities
 insert into public.activities (id, slug, title, summary, description, duration_label, inclusions, price_from, price_note, cover_media_id, status, is_demo, sort) values
-  ('00000000-0000-4000-8000-000000000701', 'snorkelling', 'Snorkelling trips', 'Float over coral gardens and reef edges a short boat ride from Huraa.', 'Join a boat trip to nearby reefs to snorkel among reef fish, turtles and coral. Our crew picks spots that suit the conditions and your confidence in the water.', 'Duration confirmed on enquiry', array['Boat transport', 'Local guide', 'Snorkel equipment on request']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000008', 'published', true, 1),
-  ('00000000-0000-4000-8000-000000000702', 'sandbank-picnic', 'Sandbank picnic', 'A day out on a tiny strip of white sand in the middle of the lagoon.', 'Spend a few hours on a sandbank surrounded by turquoise water — swim, snorkel and relax. A perfect half-day between surf sessions.', 'Duration confirmed on enquiry', array['Boat transport', 'Shade on request', 'Snacks or picnic on request']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000009', 'published', true, 2),
-  ('00000000-0000-4000-8000-000000000703', 'sunset-fishing', 'Traditional sunset fishing', 'Try Maldivian handline fishing as the sun goes down.', 'Head out on a local boat at dusk and learn the traditional handline technique used by island fishermen for generations.', 'Duration confirmed on enquiry', array['Boat transport', 'Handlines and bait', 'Local crew']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000010', 'published', true, 3),
+  ('00000000-0000-4000-8000-000000000701', 'snorkelling', 'Snorkelling trips', 'Float over coral gardens and reef edges a short boat ride from Huraa.', 'Join a boat trip to nearby reefs to snorkel among reef fish, turtles and coral. Our crew picks spots that suit the conditions and your confidence in the water.', 'Duration confirmed on enquiry', array['Boat transport', 'Local guide', 'Snorkel equipment on request']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000022', 'published', true, 1),
+  ('00000000-0000-4000-8000-000000000702', 'sandbank-picnic', 'Sandbank picnic', 'A day out on a tiny strip of white sand in the middle of the lagoon.', 'Spend a few hours on a sandbank surrounded by turquoise water — swim, snorkel and relax. A perfect half-day between surf sessions.', 'Duration confirmed on enquiry', array['Boat transport', 'Shade on request', 'Snacks or picnic on request']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000025', 'published', true, 2),
+  ('00000000-0000-4000-8000-000000000703', 'sunset-fishing', 'Traditional sunset fishing', 'Try Maldivian handline fishing as the sun goes down.', 'Head out on a local boat at dusk and learn the traditional handline technique used by island fishermen for generations.', 'Duration confirmed on enquiry', array['Boat transport', 'Handlines and bait', 'Local crew']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000043', 'published', true, 3),
   ('00000000-0000-4000-8000-000000000704', 'diving', 'Diving', 'Explore North Malé Atoll reefs, channels and walls.', 'We can arrange dives with a licensed dive centre for certified divers and beginners. Dive sites and schedules depend on conditions and are confirmed on enquiry.', 'Duration confirmed on enquiry', array['Arranged with a licensed dive centre', 'Equipment options on request']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000011', 'published', true, 4),
-  ('00000000-0000-4000-8000-000000000705', 'fish-feeding-trip', 'Fish feeding trip', 'A short boat trip to watch reef life up close.', 'A relaxed outing suited to families and non-swimmers. Details are confirmed by our team on enquiry.', 'Duration confirmed on enquiry', array['Boat transport', 'Local crew']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000004', 'published', true, 5)
+  ('00000000-0000-4000-8000-000000000705', 'fish-feeding-trip', 'Fish feeding trip', 'A short boat trip to watch reef life up close.', 'A relaxed outing suited to families and non-swimmers. Details are confirmed by our team on enquiry.', 'Duration confirmed on enquiry', array['Boat transport', 'Local crew']::text[], null, 'Price on enquiry', '00000000-0000-4000-8000-000000000021', 'published', true, 5)
 on conflict (id) do nothing;
 
 -- menu_items
@@ -104,24 +134,40 @@ on conflict (id) do nothing;
 
 -- gallery_items
 insert into public.gallery_items (id, gallery_key, media_id, position, caption, status) values
-  ('00000000-0000-4000-8000-000000000901', 'huraa', '00000000-0000-4000-8000-000000000002', 1, null, 'published'),
-  ('00000000-0000-4000-8000-000000000902', 'huraa', '00000000-0000-4000-8000-000000000003', 2, null, 'published'),
-  ('00000000-0000-4000-8000-000000000903', 'huraa', '00000000-0000-4000-8000-000000000004', 3, null, 'published'),
-  ('00000000-0000-4000-8000-000000000904', 'huraa', '00000000-0000-4000-8000-000000000019', 4, null, 'published'),
+  ('00000000-0000-4000-8000-000000000901', 'huraa', '00000000-0000-4000-8000-000000000026', 1, null, 'published'),
+  ('00000000-0000-4000-8000-000000000902', 'huraa', '00000000-0000-4000-8000-000000000024', 2, null, 'published'),
+  ('00000000-0000-4000-8000-000000000903', 'huraa', '00000000-0000-4000-8000-000000000035', 3, null, 'published'),
+  ('00000000-0000-4000-8000-000000000904', 'huraa', '00000000-0000-4000-8000-000000000033', 4, null, 'published'),
+  ('00000000-0000-4000-8000-000000000905', 'huraa', '00000000-0000-4000-8000-000000000049', 5, null, 'published'),
+  ('00000000-0000-4000-8000-000000000906', 'huraa', '00000000-0000-4000-8000-000000000042', 6, null, 'published'),
+  ('00000000-0000-4000-8000-000000000907', 'huraa', '00000000-0000-4000-8000-000000000034', 7, null, 'published'),
+  ('00000000-0000-4000-8000-000000000908', 'huraa', '00000000-0000-4000-8000-000000000045', 8, null, 'published'),
   ('00000000-0000-4000-8000-000000000910', 'restaurant', '00000000-0000-4000-8000-000000000012', 1, null, 'published'),
   ('00000000-0000-4000-8000-000000000911', 'restaurant', '00000000-0000-4000-8000-000000000015', 2, null, 'published'),
   ('00000000-0000-4000-8000-000000000912', 'restaurant', '00000000-0000-4000-8000-000000000013', 3, null, 'published'),
   ('00000000-0000-4000-8000-000000000913', 'restaurant', '00000000-0000-4000-8000-000000000014', 4, null, 'published'),
-  ('00000000-0000-4000-8000-000000000920', 'gallery', '00000000-0000-4000-8000-000000000001', 1, null, 'published'),
-  ('00000000-0000-4000-8000-000000000921', 'gallery', '00000000-0000-4000-8000-000000000005', 2, null, 'published'),
-  ('00000000-0000-4000-8000-000000000922', 'gallery', '00000000-0000-4000-8000-000000000002', 3, null, 'published'),
-  ('00000000-0000-4000-8000-000000000923', 'gallery', '00000000-0000-4000-8000-000000000009', 4, null, 'published'),
-  ('00000000-0000-4000-8000-000000000924', 'gallery', '00000000-0000-4000-8000-000000000008', 5, null, 'published'),
-  ('00000000-0000-4000-8000-000000000925', 'gallery', '00000000-0000-4000-8000-000000000004', 6, null, 'published'),
-  ('00000000-0000-4000-8000-000000000926', 'gallery', '00000000-0000-4000-8000-000000000007', 7, null, 'published'),
-  ('00000000-0000-4000-8000-000000000927', 'gallery', '00000000-0000-4000-8000-000000000003', 8, null, 'published'),
-  ('00000000-0000-4000-8000-000000000928', 'gallery', '00000000-0000-4000-8000-000000000019', 9, null, 'published'),
-  ('00000000-0000-4000-8000-000000000929', 'gallery', '00000000-0000-4000-8000-000000000010', 10, null, 'published'),
+  ('00000000-0000-4000-8000-000000000920', 'gallery', '00000000-0000-4000-8000-000000000023', 1, null, 'published'),
+  ('00000000-0000-4000-8000-000000000921', 'gallery', '00000000-0000-4000-8000-000000000021', 2, null, 'published'),
+  ('00000000-0000-4000-8000-000000000922', 'gallery', '00000000-0000-4000-8000-000000000026', 3, null, 'published'),
+  ('00000000-0000-4000-8000-000000000923', 'gallery', '00000000-0000-4000-8000-000000000024', 4, null, 'published'),
+  ('00000000-0000-4000-8000-000000000924', 'gallery', '00000000-0000-4000-8000-000000000022', 5, null, 'published'),
+  ('00000000-0000-4000-8000-000000000925', 'gallery', '00000000-0000-4000-8000-000000000035', 6, null, 'published'),
+  ('00000000-0000-4000-8000-000000000926', 'gallery', '00000000-0000-4000-8000-000000000046', 7, null, 'published'),
+  ('00000000-0000-4000-8000-000000000927', 'gallery', '00000000-0000-4000-8000-000000000025', 8, null, 'published'),
+  ('00000000-0000-4000-8000-000000000928', 'gallery', '00000000-0000-4000-8000-000000000033', 9, null, 'published'),
+  ('00000000-0000-4000-8000-000000000929', 'gallery', '00000000-0000-4000-8000-000000000043', 10, null, 'published'),
+  ('00000000-0000-4000-8000-000000000950', 'gallery', '00000000-0000-4000-8000-000000000027', 11, null, 'published'),
+  ('00000000-0000-4000-8000-000000000951', 'gallery', '00000000-0000-4000-8000-000000000028', 12, null, 'published'),
+  ('00000000-0000-4000-8000-000000000952', 'gallery', '00000000-0000-4000-8000-000000000029', 13, null, 'published'),
+  ('00000000-0000-4000-8000-000000000953', 'gallery', '00000000-0000-4000-8000-000000000030', 14, null, 'published'),
+  ('00000000-0000-4000-8000-000000000954', 'gallery', '00000000-0000-4000-8000-000000000031', 15, null, 'published'),
+  ('00000000-0000-4000-8000-000000000955', 'gallery', '00000000-0000-4000-8000-000000000032', 16, null, 'published'),
+  ('00000000-0000-4000-8000-000000000956', 'gallery', '00000000-0000-4000-8000-000000000034', 17, null, 'published'),
+  ('00000000-0000-4000-8000-000000000957', 'gallery', '00000000-0000-4000-8000-000000000049', 18, null, 'published'),
+  ('00000000-0000-4000-8000-000000000958', 'gallery', '00000000-0000-4000-8000-000000000044', 19, null, 'published'),
+  ('00000000-0000-4000-8000-000000000959', 'gallery', '00000000-0000-4000-8000-000000000042', 20, null, 'published'),
+  ('00000000-0000-4000-8000-000000000960', 'gallery', '00000000-0000-4000-8000-000000000037', 21, null, 'published'),
+  ('00000000-0000-4000-8000-000000000961', 'gallery', '00000000-0000-4000-8000-000000000048', 22, null, 'published'),
   ('00000000-0000-4000-8000-000000000930', 'guesthouse:00000000-0000-4000-8000-000000000101', '00000000-0000-4000-8000-000000000016', 1, null, 'published'),
   ('00000000-0000-4000-8000-000000000931', 'guesthouse:00000000-0000-4000-8000-000000000101', '00000000-0000-4000-8000-000000000017', 2, null, 'published'),
   ('00000000-0000-4000-8000-000000000932', 'guesthouse:00000000-0000-4000-8000-000000000101', '00000000-0000-4000-8000-000000000003', 3, null, 'published'),

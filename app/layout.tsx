@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: 'Sea Shine Travel & Tours | Huraa, Maldives',
     description:
       'Partner guesthouse stays, surf packages, island activities and the Sea Shine restaurant on Huraa, Maldives.',
-    images: ['/images/hero-huraa.png'],
+    images: ['/images/huraa/beach-sunset.jpeg'],
   },
   icons: {
     icon: [
