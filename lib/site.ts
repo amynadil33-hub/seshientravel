@@ -20,6 +20,7 @@ export const NAV_LINKS = [
   { href: '/discover-huraa', label: 'Discover Huraa' },
   { href: '/guesthouses', label: 'Guesthouses' },
   { href: '/surf', label: 'Surf' },
+  { href: '/fleet', label: 'Fleet' },
   { href: '/activities', label: 'Activities' },
   { href: '/restaurant', label: 'Restaurant' },
   { href: '/gallery', label: 'Gallery' },

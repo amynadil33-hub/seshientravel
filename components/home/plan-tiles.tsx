@@ -6,7 +6,7 @@ import type { Media } from '@/lib/types'
 
 const TILES = [
   { href: '/guesthouses', label: 'Stay', title: 'Partner guesthouses', media: MEDIA.stayExterior },
-  { href: '/surf', label: 'Surf', title: 'Boat trips to the reef', media: MEDIA.speedboatCruise },
+  { href: '/surf', label: 'Surf', title: 'Boat trips to the reef', media: MEDIA.surfBoat },
   { href: '/activities', label: 'Explore', title: 'Snorkel, sandbanks & fishing', media: MEDIA.snorkellingLagoon },
   { href: '/restaurant', label: 'Eat', title: 'Our restaurant', media: MEDIA.grill },
 ]

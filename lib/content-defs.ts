@@ -85,9 +85,22 @@ export const PAGE_DEFS: PageDef[] = [
     fields: [
       t('hero_title', 'Hero title', 'Surf North Malé Atoll'),
       ta('hero_subtitle', 'Hero subtitle', 'Stay on Huraa and take the boat to the reef breaks. We match the trip to the swell, the wind and your level.'),
-      im('hero_image', 'Hero image', MEDIA.speedboatFleet),
+      im('hero_image', 'Hero image', MEDIA.surfReef),
       t('breaks_title', 'Breaks section title', 'The breaks'),
       ta('breaks_intro', 'Breaks intro', 'Conditions change daily. Our crew chooses the break that is working best and suits your experience.'),
+    ],
+  },
+  {
+    page: 'fleet',
+    title: 'Fleet',
+    path: '/fleet',
+    fields: [
+      t('hero_title', 'Hero title', 'Our boats across North Malé Atoll'),
+      ta('hero_subtitle', 'Hero subtitle', 'Speedboat transfers, surf departures and island excursions arranged by our local team on Huraa.'),
+      im('hero_image', 'Hero image', MEDIA.speedboatFleet),
+      t('intro_title', 'Introduction title', 'The right boat for the day'),
+      ta('intro_body', 'Introduction text', 'From airport arrivals to early surf runs and relaxed lagoon trips, we arrange the boat that suits your route, group and plans. Exact vessel, capacity and timing are confirmed with your enquiry.'),
+      im('intro_image', 'Introduction image', MEDIA.speedboatAerial),
     ],
   },
   {
